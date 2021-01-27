@@ -110,3 +110,58 @@ section {
 	background-color: rgb(181,225,236);
 	border: 1px solid black;
 }
+
+@media ( max-width: 1024px ) {
+  html {
+    height: 101%;
+    width: 100%;
+    background: url(./Images/cave.jpg) no-repeat;
+    background-size: auto 100vh;
+    position: relative;
+  }
+
+  body {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-51%);
+  }
+
+  header {
+    height: 6%;
+    margin-bottom: 2%;
+    font-size: 1em;
+  }
+
+  main {
+    height: 35%;
+    margin-bottom: 3%;
+  }
+
+  .preText {
+    height: 10%;
+    margin-bottom: 3%;
+    overflow: auto;
+    font-size: 1em;
+  }
+
+  section {
+    height: 40%;
+  }
+
+  .text {
+    font-size: 1.3em;
+    overflow: auto;
+  }
+
+  .text:hover {
+    width: 90vw;
+    overflow: auto;
+  }
+
+  .choice {
+    font-size: 1.5em;
+  }
+}
